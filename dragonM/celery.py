@@ -25,18 +25,6 @@ app.conf.task_routes = ([
     ('apps.vulmannager.tasks.*', {
         'queue': 'vulmannager'
     }),
-    # ('task_result.tasks.start_transform', {
-    #     'queue': 'transform'
-    # }),
-    # ('task_control.tasks.*', {
-    #     'queue': 'plan'
-    # }),
-    # ('report.tasks.*', {
-    #     'queue': 'report'
-    # }),
-    # ('utils.minion.*', {
-    #     'queue': 'nettool'
-    # }),
 ], )
 
 app.set_current()
