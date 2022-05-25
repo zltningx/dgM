@@ -12,7 +12,7 @@ kombu==4.6.7
 MarkupSafe==1.1.1
 more-itertools==8.0.2
 psycopg2-binary==2.8.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 pymongo==3.9.0
 pytz==2019.3
 redis==3.3.11
